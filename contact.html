@@ -1,0 +1,163 @@
+
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="fa/css/all.css">
+        <link rel="stylesheet" href="fa/css/all.min.css">
+        <link rel="stylesheet" href="fa/css/brands.css">
+        <link rel="stylesheet" href="fa/css/brands.min.css">
+        <link rel="stylesheet" href="fa/css/fontawesome.css">
+        <link rel="stylesheet" href="fa/css/fontawesome.min.css">
+        <link rel="stylesheet" href="fa/css/v4-shims.min.css">
+        <link rel="stylesheet" href="fa/css/svg-with-js.css">
+        <link rel="stylesheet" href="fa/css/solid.css">
+        <link rel="stylesheet" href="slider.css">
+        <link rel="stylesheet" href="motorweb.css">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            background:gray ;
+            background-size: cover;
+        }
+
+
+
+   .live_chat{
+    text-align: center;
+    font-style: italic;
+    -webkit-text-stroke: 2px white;
+    padding:4px;
+    margin-left: 2%;
+
+   }
+    .back_btn{
+        margin-left: 46%;
+        font-size: 18px;
+        color: black;
+        margin-top: 5%;
+
+    }
+    .back_btn a{
+      color: white;
+    }
+    .addd{
+        margin-left:20%;
+        font-size: 18px;
+        color: blueviolet;
+        margin-top: 1%;
+        font-style: italic;
+        font-family:fantasy;
+    }
+
+    </style>
+</head>
+<body>
+        <div class="nav" >
+            <div class="live_chat">LIVECHAT<i class="fa fa-chat"></i></div>
+            <div class="addd">Comment.Querry.Suggest</div>
+            <div class="back_btn"><a href="index.html">HOME&nbsp;<i class="fa fa-home"></i></a></div>
+        </div>
+    <div class="container-fluid jumbotron">
+
+
+            <div class="col-lg-6">
+    <form action="mailto:'dennisronny2018@gmail.com'"  name="text">
+        </div>
+        <div class="row">
+
+       <textarea id="bar"></textarea>
+       <button type="submit" id="snd"><i class="fa fa-send "></i></button>
+    </div>
+    </form>
+
+
+    </div>
+
+
+    <footer>
+        <div style="background: black;height: 200px; opacity: .9; " class="row">
+            <div class="col-lg-4" style="margin-top:0%;">
+
+                <i class="fa fa-envelope-o fa-2x"style="margin-top:2%;margin-left:4%;color:red"></i>
+                 Send an email
+
+            </div>
+            <div class="col-lg-4 " style="color:white">Coutesy of Ronny Developers&nbsp;
+                <img src="imgs/slide--12.jpg"style="height:6rem;width:6rem;border-radius:50%";margin-top:10px><br>
+                <i class="fa fa-phone">&nbsp;+254743223867</i>
+                <i class="fa fa-facebook-square fa-2x"style="margin-top:5%;margin-left:4%;color:blue"></i>
+                <i class="fa fa-instagram fa-2x"style="margin-top:5%;margin-left:4%;color:maroon"></i>
+                <i class="fa fa-envelope-o fa-2x"style="margin-top:5%;margin-left:4%;color:red"></i>
+             </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="newjquerrydownload.js"></script>
+<script>
+
+
+
+  $('#bar').css({
+    width :'90%',
+    border:'2px solid blue',
+    background:'wheat',
+    height: '48.9px',
+    marginTop:'224px',
+    //width:'60%';
+    marginLeft:'0',
+    boxShadow:'2px red',
+    color:'green',
+  });
+
+
+
+  $('#snd').css({
+    color:'red',
+    marginTop: '17%',
+    backgroundColor: 'blue',
+    height: '48px',
+
+  });
+
+
+</script>
+     <script>
+     var d = document;
+     btn =d.getElementById('snd');
+     btn.addEventListener('click',function(){
+       d = document;
+        text =  d.getElementById('bar').value;
+        if(text ===''){
+          send();
+
+        } else{
+        send();
+        }
+
+     });
+     function send(){
+    confirm('Do you want to send an empty  text');
+      if('OK'){
+         alert('Message sent');
+
+
+     }else {
+        alert('not sent');
+     }
+
+
+
+
+}
+
+</script>
+</body>
+</html>
